@@ -12,6 +12,8 @@
 		7334BAF020EC00C300E24AD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7334BAEE20EC00C300E24AD5 /* Main.storyboard */; };
 		7334BAF220EC00C400E24AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7334BAF120EC00C400E24AD5 /* Assets.xcassets */; };
 		7334BAF520EC00C400E24AD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7334BAF320EC00C400E24AD5 /* LaunchScreen.storyboard */; };
+		7334BB0020EC074600E24AD5 /* SwitchStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7334BAFF20EC074600E24AD5 /* SwitchStatus.swift */; };
+		7334BB0220EC07E800E24AD5 /* Togglable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7334BB0120EC07E800E24AD5 /* Togglable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7334BAF120EC00C400E24AD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7334BAF420EC00C400E24AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7334BAF620EC00C400E24AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7334BAFF20EC074600E24AD5 /* SwitchStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchStatus.swift; sourceTree = "<group>"; };
+		7334BB0120EC07E800E24AD5 /* Togglable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Togglable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		7334BAE920EC00C300E24AD5 /* Eluxon */ = {
 			isa = PBXGroup;
 			children = (
+				7334BAFE20EC070800E24AD5 /* Protocols */,
+				7334BAFD20EC06E900E24AD5 /* Enums */,
 				7334BAEA20EC00C300E24AD5 /* AppDelegate.swift */,
 				7334BAEC20EC00C300E24AD5 /* ViewController.swift */,
 				7334BAEE20EC00C300E24AD5 /* Main.storyboard */,
@@ -62,6 +68,22 @@
 				7334BAF620EC00C400E24AD5 /* Info.plist */,
 			);
 			path = Eluxon;
+			sourceTree = "<group>";
+		};
+		7334BAFD20EC06E900E24AD5 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				7334BAFF20EC074600E24AD5 /* SwitchStatus.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		7334BAFE20EC070800E24AD5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7334BB0120EC07E800E24AD5 /* Togglable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +159,8 @@
 			files = (
 				7334BAED20EC00C300E24AD5 /* ViewController.swift in Sources */,
 				7334BAEB20EC00C300E24AD5 /* AppDelegate.swift in Sources */,
+				7334BB0020EC074600E24AD5 /* SwitchStatus.swift in Sources */,
+				7334BB0220EC07E800E24AD5 /* Togglable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
